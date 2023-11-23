@@ -78,6 +78,14 @@ h6 {
     margin-bottom: 30px;
 }
 
+.tn-img img {
+    height: 400px; /* Set the desired height */
+    object-fit: cover;
+}
+.tn-left .tn-img img {
+    height: 830px; /* Adjust the height to match the right-side photos */
+}
+
 .top-news .tn-img {
     position: relative;
     overflow: hidden;
@@ -141,49 +149,49 @@ h6 {
     color: #E47A2E;
 }
 
-
-/**********************************/
-/******* Category News CSS ********/
-/**********************************/
-.cat-news {
+.cl-news {
     position: relative;
     width: 100%;
     padding: 0;
 }
 
-.cat-news .col-md-6 {
+.cl-news .col-md-6 {
     margin-bottom: 30px;
 }
 
-.cat-news h2 {
+.cl-news h2 {
     color: #353535;
     font-size: 35px;
     font-weight: 700;
     margin-left: 40px;
 }
 
-.cat-news h2 i {
+.cl-news h2 i {
     position: absolute;
     top: 8px;
     left: 15px;
     font-size: 28px;
 }
 
-.cat-news .cn-img {
+.cl-news .cn-img {
     position: relative;
     overflow: hidden;
+    height: 250px; /* Set the desired height */
+    width: 100%; /* Ensure full width within the container */
+    object-fit: cover; /* Maintain aspect ratio and cover */
+    
 }
 
-.cat-news .cn-img img {
+.cl-news .cn-img img {
     width: 100%;
 }
 
-.cat-news .cn-img:hover img {
+.cl-news .cn-img:hover img {
     filter: blur(5px);
     -webkit-filter: blur(5px);
 }
 
-.cat-news .cn-content {
+.cl-news .cn-content {
     position: absolute;
     top: 0;
     right: 0;
@@ -195,7 +203,7 @@ h6 {
     align-items: flex-end;
 }
 
-.cat-news .cn-content a.cn-date {
+.cl-news .cn-content a.cn-date {
     display: block;
     width: 100%;
     margin-bottom: 5px;
@@ -206,15 +214,15 @@ h6 {
     letter-spacing: 1px;
 }
 
-.cat-news .cn-content a.cn-date i {
+.cl-news .cn-content a.cn-date i {
     margin-right: 5px;
 }
 
-.cat-news .cn-content a.cn-date:hover {
+.cl-news .cn-content a.cn-date:hover {
     text-decoration: underline;
 }
 
-.cat-news .cn-content a.cn-title {
+.cl-news .cn-content a.cn-title {
     display: block;
     width: 100%;
     color: #ffffff;
@@ -223,12 +231,12 @@ h6 {
     transition: .3s;
 }
 
-.cat-news .cn-content a.cn-title:hover {
+.cl-news .cn-content a.cn-title:hover {
     color: #E47A2E;
 }
 
-.cat-news .slick-prev,
-.cat-news .slick-next {
+.cl-news .slick-prev,
+.cl-news .slick-next {
     top: -35px;
     width: 28px;
     height: 28px;
@@ -238,18 +246,18 @@ h6 {
     background: #353535;
 }
 
-.cat-news .slick-prev {
+.cl-news .slick-prev {
     left: calc(100% - 85px);
 }
 
-.cat-news .slick-next {
+.cl-news .slick-next {
     right: 14px;
 }
 
-.cat-news .slick-prev:hover,
-.cat-news .slick-prev:focus,
-.cat-news .slick-next:hover,
-.cat-news .slick-next:focus {
+.cl-news .slick-prev:hover,
+.cl-news .slick-prev:focus,
+.cl-news .slick-next:hover,
+.cl-news .slick-next:focus {
     color: #ffffff;
     background: #E47A2E;
 }
@@ -288,6 +296,7 @@ h6 {
 .main-news .mn-img {
     position: relative;
     overflow: hidden;
+    
 }
 
 .main-news .mn-img img {
