@@ -103,7 +103,7 @@ document.onkeyup = function (e) {
 
   if (e.keyCode === 65) {
 
-
+	console.log(e)
     duration = (e.timeStamp - pressed[e.which]) / 1000;
 
 

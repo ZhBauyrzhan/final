@@ -33,7 +33,8 @@ h3,
 h4,
 h5,
 h6 {
-    color: #28a745;;
+    color: #28a745;
+    ;
     margin: 0 0 15px 0;
     padding: 0;
 }
@@ -79,11 +80,14 @@ h6 {
 }
 
 .tn-img img {
-    height: 400px; /* Set the desired height */
+    height: 400px;
+    /* Set the desired height */
     object-fit: cover;
 }
+
 .tn-left .tn-img img {
-    height: 830px; /* Adjust the height to match the right-side photos */
+    height: 830px;
+    /* Adjust the height to match the right-side photos */
 }
 
 .top-news .tn-img {
@@ -112,7 +116,7 @@ h6 {
     align-items: flex-end;
 }
 
-.top-news .tn-content a.tn-date{
+.top-news .tn-content a.tn-date {
     display: block;
     width: 100%;
     margin-bottom: 5px;
@@ -176,10 +180,13 @@ h6 {
 .cl-news .cn-img {
     position: relative;
     overflow: hidden;
-    height: 250px; /* Set the desired height */
-    width: 100%; /* Ensure full width within the container */
-    object-fit: cover; /* Maintain aspect ratio and cover */
-    
+    height: 250px;
+    /* Set the desired height */
+    width: 100%;
+    /* Ensure full width within the container */
+    object-fit: cover;
+    /* Maintain aspect ratio and cover */
+
 }
 
 .cl-news .cn-img img {
@@ -279,6 +286,14 @@ h6 {
     margin-bottom: 30px;
 }
 
+
+.quiz h1 {
+    color: #353535;
+    font-size: 35px;
+    font-weight: 700;
+    margin-left: 40px;
+}
+
 .main-news h2 {
     color: #353535;
     font-size: 35px;
@@ -296,7 +311,7 @@ h6 {
 .main-news .mn-img {
     position: relative;
     overflow: hidden;
-    
+
 }
 
 .main-news .mn-img img {
